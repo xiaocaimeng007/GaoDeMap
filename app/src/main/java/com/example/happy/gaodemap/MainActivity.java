@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements AMapLocationListe
         initView();
         mapview.onCreate(savedInstanceState);
 
+        Toast.makeText(this, "xxxxxx", Toast.LENGTH_SHORT).show();
         initMap();
     }
 
